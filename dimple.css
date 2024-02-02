@@ -1,0 +1,159 @@
+body{
+    align-items: center;
+    background-color: #A8D0E6;
+}
+.center {
+    display: block;
+    top: 0px;
+    margin-left: 430px;
+    width: 500px;
+    height: 150px;
+  }
+.flower{
+    width: 6cm;
+    height: 9cm;
+    position: absolute;
+    left: 29.7cm;
+    top: 150px;
+
+}
+.flower2{
+    width: 6cm;
+    position: absolute;
+    height: 9cm;
+    left: 0%;
+    top: 150px;
+}
+.I{
+    margin-top: 150px;
+    margin-left: 340px;
+    width: 4cm;
+    height: 10cm;
+    color: #A8D0E6;
+    text-align: center;
+    background-color: #A8D0E6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+h2{
+    transition: 1s;
+    transition-timing-function: linear;
+}
+.bottom{
+    margin-top: auto;
+    width: 35.3cm;
+    background-image: url("giphy.gif");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    position: relative;
+    z-index: 1;
+}
+
+h2:hover{
+    width: 18cm;
+    height: 8cm;
+    padding-top: 4px;
+    color: blue;
+}
+
+.rose2{
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    top: 92%;
+    left: 80%;
+    transform: translate(-60%, -50%);
+}
+
+.rose3{
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    top: 20%;
+    left: 23%;
+    transform: translate(-60%, -50%);
+}
+
+.rose4{
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    top: 20%;
+    left: 80%;
+    transform: translate(-60%, -50%);
+}
+
+.rose {
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    top: 92%;
+    left: 23%;
+    transform: translate(-60%, -50%);
+}
+
+.sun{
+    
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+}
+
+.button{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+h1{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.moving{
+    top: 12.5cm;
+    left: 1.7cm;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url(zara.jpg);
+    background-size: cover;
+}
+
+.moving:hover{
+    top: 5cm;
+    left: 430px;
+    width: 500px;
+    height: 500px;
+}
+
+.next{
+    top: 12.5cm;
+    left: 31.4cm;
+    width: 100px;
+    height: 100px; 
+    background-image: url(zara1.jpg);
+    position: absolute;
+    background-size: cover;
+}
+.next:hover{
+    top: 5cm;
+    left: 430px;
+    width: 500px;
+    height: 500px;
+}

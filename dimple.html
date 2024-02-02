@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile</title>
+    <link rel="stylesheet" href="dimple.css"/>
+    <link rel="icon" href="Dimpl.png" />
+</head>
+<body>
+    <h1 title="pasensya na pambata wala ako makitaa na maayos e HAHAHAHHAHA"><button onclick="showRose()" class="button"><img src="go.png" alt="birthday" class="center" id="birthdayGif"/></button></h1>
+
+    <h2 class="I">Happy Birthday Dimple<br>I hope you are doing well and you should enjoy your day, lakasan mo lang ang loob mo parati<br>
+    kaya mo yan!, sobrang proud ako sayo sa mga achievements mo, sa galing at talino mo♥<br>Bastaa dapatt masaya ka ngayong birthday mo ah.<br>Ang hiling ko sayo ay katatagan ng loob sa bawat pagsubok, at mental health mo, alam ko marami ka pinagdadaanan pero proud ako kase ang lakas mo♥ Fighting ah!<br>click mo yung happy birthday</h2>
+
+    <img src="po.gif" alt="rose" id="roseImage" class="rose" style="display: none;"/>
+    <img src="po.gif" alt="rose" id="roseImage3" class="rose3" style="display: none;"/>
+    <img src="po.gif" alt="rose" id="roseImage4" class="rose4" style="display: none;"/>
+    <img src="po.gif" alt="rose" id="roseImage2" class="rose2" style="display: none;"/>
+    <img src="sun.gif" alt="rose" id="sun1" class="sun" style="display: none;"/>
+    <img src="flower.gif" alt="flowers for you" class="flower2" style="display: block;" />
+    <img src="flower.gif" alt="flowers for you" id="flowerImg" class="flower" style="display: block;" />
+    <img src="bottom.png" alt="design" class="bottom"/>
+
+    <audio id="birthdaySong" src="song.mp3" preload="auto"></audio>
+
+    <div>
+    <div title="Gandaa mo po diyan" class="moving"></div>
+    <div title="Sheshhhhhh namannn e" class="next"></div>
+</div>
+
+    <script>
+        function showRose() {
+            var audio = document.getElementById("birthdaySong");
+            audio.play()
+
+            // Get reference to the rose image
+            var roseImage = document.getElementById("roseImage");
+            var roseImage2 = document.getElementById("roseImage2");
+            var roseImage3 = document.getElementById("roseImage3");
+            var roseImage4 = document.getElementById("roseImage4");
+            var sun1 = document.getElementById("sun1");
+            var body = document.getElementById("body");
+            var h2 = document.getElementById("h2")
+            // Show the rose image
+            roseImage.style.display = "block";
+            roseImage2.style.display = "block";
+            roseImage3.style.display = "block";
+            roseImage4.style.display = "block";
+            sun1.style.display = "block";
+
+            setTimeout(function() {
+                roseImage.style.display = "none";
+                roseImage2.style.display = "none";
+                roseImage3.style.display = "none";
+                roseImage4.style.display = "none";
+                sun1.style.display = "none";
+            }, 4700);
+        }
+
+    </script>
+
+</body>
+</html>
